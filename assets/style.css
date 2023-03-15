@@ -1,0 +1,11 @@
+header nav{
+    height: 80px;
+}
+
+:root{
+    --cl-orange: #ff8f00;
+}
+
+.cl-orange{
+    color: var(--cl-orange);
+}
