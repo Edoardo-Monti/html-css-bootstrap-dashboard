@@ -9,3 +9,8 @@ header nav{
 .cl-orange{
     color: var(--cl-orange);
 }
+
+#container-sx{
+    height: calc(100vh - 80px);
+    background-color: black;
+}
