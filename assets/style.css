@@ -2,6 +2,10 @@ header nav{
     height: 80px;
 }
 
+.width{
+    width: 6rem;
+}
+
 :root{
     --cl-orange: #ff8f00;
 }
@@ -16,7 +20,8 @@ main{
 }
 
 #container-sx{
-    /* height: calc(100vh - 80px); */
-    background-image: url(../assets/img\ /);
-    border: 2px dashed red;
+    background-color: rgb(32, 42, 70);
+    background-image: url( "./img/sidebar-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
