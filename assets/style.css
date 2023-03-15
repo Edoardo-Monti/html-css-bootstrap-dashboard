@@ -10,7 +10,13 @@ header nav{
     color: var(--cl-orange);
 }
 
-#container-sx{
+main{
     height: calc(100vh - 80px);
-    background-color: black;
+    border: 2px dashed blue;
+}
+
+#container-sx{
+    /* height: calc(100vh - 80px); */
+    background-image: url(../assets/img\ /);
+    border: 2px dashed red;
 }
