@@ -30,6 +30,17 @@ main{
     width: 100%;
 }
 
+/* Tabella */
+.w-10{
+    width: 10%;
+}
+
+.rounded-2{
+    border: solid rgb(138, 138, 138);
+    color: rgb(138, 138, 138);
+    padding: 5px;
+}
+
 /* .accordion-item:not(:first-of-type){
 
 } 
@@ -43,6 +54,7 @@ main{
     border-radius: none;
     border-bottom: 0.5px solid;
 }
+
 
 
 

@@ -1,0 +1,16 @@
+/* mobile */
+
+
+/* tablet */
+@media only screen and (min-width: 768px) {
+    .w-10 {
+        width: 8%;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    .w-10 {
+        width: 10%;
+    }
+}
