@@ -13,4 +13,8 @@
     .w-10 {
         width: 10%;
     }
+
+    #container-sx{
+        width: 130px;
+    }
 }
