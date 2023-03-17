@@ -8,6 +8,8 @@ header nav{
 
 :root{
     --cl-orange: #ff8f00;
+    --bg-light-blue: #5b55f3;
+    --bg-dark-blue: rgb(32, 42, 70);
 }
 
 .cl-orange{
@@ -19,15 +21,14 @@ main{
 }
 
 #container-sx{
-    background-color: rgb(32, 42, 70);
+    background-color: var(--bg-dark-blue);
     background-image: url( "./img/sidebar-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#container-dx{
-    /* border: 2px dashed blue; */
-    width: 100%;
+.bg-light-blue{
+    background-color: var(--bg-light-blue);
 }
 
 /* Tabella */
@@ -40,14 +41,6 @@ main{
     color: rgb(138, 138, 138);
     padding: 5px;
 }
-
-/* .accordion-item:not(:first-of-type){
-
-} 
-
-.accordion-item:first-of-type{
-
-} */
 
 .accordion-item{
     border: 0;
