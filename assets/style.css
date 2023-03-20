@@ -10,6 +10,7 @@ header nav{
     --cl-orange: #ff8f00;
     --bg-light-blue: #5b55f3;
     --bg-dark-blue: rgb(32, 42, 70);
+    --cl-gray: rgb(138, 138, 138);
 }
 
 .cl-orange{
@@ -42,7 +43,7 @@ main{
 
 .rounded-2{
     border: solid rgb(138, 138, 138);
-    color: rgb(138, 138, 138);
+    color: var(--cl-gray);
     padding: 5px;
 }
 
