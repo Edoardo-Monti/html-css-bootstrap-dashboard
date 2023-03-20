@@ -31,6 +31,10 @@ main{
     background-color: var(--bg-light-blue);
 }
 
+.offcanvas-end-1{
+    --bs-offcanvas-width: 100%;
+}
+
 /* Tabella */
 .w-10{
     width: 10%;

@@ -4,10 +4,6 @@
     .w-10 {
         width: 8%;
     }
-
-    .offcanvas-end-1{
-        --bs-offcanvas-width: 100%;
-    }
 }
 
 /* Desktop */
